@@ -10,12 +10,10 @@ The method is described in their paper:
 
 T.Wiśniowski and H.Rickman, “A Fast, Geometric Method for Calculating Accurate Minimum Orbit Intersection Distances (MOIDs)” 2013 Acta Astronomica
 
-The paper and the source code are provided here in the dep and doc subdirs.
+The paper and the source code are provided here in the deps and doc subdirs.
 
 
-Mike Kretlow
-https://github.com/mkretlow
 
-Changelog:
-==========
+### Changelog:
+
 2018 Nov 08 : Initial version

@@ -1,4 +1,4 @@
-The CALCEPH.jl package is licensed under the MIT "Expat" License:
+The MOID.jl package is licensed under the MIT "Expat" License:
 
 > Copyright (c) 2018: Mike Kretlow.
 >
