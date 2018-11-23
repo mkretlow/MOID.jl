@@ -1,5 +1,3 @@
-push!(LOAD_PATH, "../src")
-
 using Test
 using MOID
 using Printf
