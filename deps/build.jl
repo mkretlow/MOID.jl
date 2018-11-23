@@ -19,7 +19,7 @@ function getcompiler()
 end
 
 
-function unixbuild(compiler, path, name, ext)
+function unixbuild(compiler,path,name,ext)
 
     if compiler == "ifort"
         run(`ifort -$(Sys.isapple() ? "dynamiclib" : "shared") -O3 -xHost -ipo -fpic -o $path/$name.$ext moid_v4_fun.f`)
@@ -48,6 +48,6 @@ name = "libmoid"
 
 ext = Sys.isapple() ? "dylib" : "so"
 
-build() = Sys.isunix() ? unixbuild(compiler, path, name, ext) : windowsbuild(path,name)
+build() = Sys.isunix() ? unixbuild(compiler,path,name,ext) : windowsbuild(path,name)
 
 build()
