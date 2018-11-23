@@ -12,6 +12,11 @@ T.Wiśniowski and H.Rickman, “A Fast, Geometric Method for Calculating Accurat
 
 The paper and the source code are provided here in the deps and doc subdirs.
 
+
+## Install
+MOID.jl can then be installed through Julia's package manager. On Linux and macOS you need to have either Gfortran or the Intel Fortran Compiler installed to be able to build the binary dependencies.
+
+
 ## Quickstart
 ```julia
 
