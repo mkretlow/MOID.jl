@@ -1,4 +1,4 @@
-## MOID.jl [![Build Status](https://travis-ci.org/mkretlow/MOID.jl.png?branch=master)](https://travis-ci.org/mkretlow/MOID.jl)
+# MOID.jl [![Build Status](https://travis-ci.org/mkretlow/MOID.jl.png?branch=master)](https://travis-ci.org/mkretlow/MOID.jl)
 
 Compute the MOID - Minimum Orbit Intersection Distance for two given confocal, elliptical orbits.
 It uses the idea of rotating meridional plane and calculates the MOIDs numerically.
@@ -10,18 +10,18 @@ The method is described in their paper:
 
 T.Wiśniowski and H.Rickman, “A Fast, Geometric Method for Calculating Accurate Minimum Orbit Intersection Distances (MOIDs)” 2013 Acta Astronomica
 
-The paper and the source code are provided here in the deps and doc subdirs.
+The paper and the source code are provided here in the deps and docs subdirs.
 
 
 ## Install
 MOID.jl can then be installed through Julia's package manager. On Linux and macOS you need to have either Gfortran or the Intel Fortran Compiler installed to be able to build the binary dependencies.
 
+```julia
+pkg> add "https://github.com/mkretlow/MOID.jl.git"
+```
 
 ## Quickstart
 ```julia
-
-pkg> add "https://github.com/mkretlow/MOID.jl.git"
-
 julia> using MOID
 
 # Calc MOID between asteroids (1) Ceres and (30) Urania. Values are: 
@@ -34,6 +34,4 @@ julia> calc_moidF(ceres...,urania...)
 0.24521440655831864
 ```
 
-### Changelog:
-
-2018 Nov 08 : Initial version
+---
