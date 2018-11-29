@@ -1,5 +1,5 @@
 # ==================================================================================================================================
-# Package: Moid : Mike Kretlow [github.com/mkretlow and astrodynamics.de], Start 2018, (MIT License)
+# Module https://github.com/mkretlow/MOID.jl : Mike Kretlow [astrodynamics.de], Start 2018, MIT "Expat" License
 # ==================================================================================================================================
 
 module MOID
