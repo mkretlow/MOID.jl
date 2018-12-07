@@ -28,10 +28,9 @@ using Printf
    SHOW && println("\nAsteroid1  Asteroid2         MOID [AU]")
 
    for i in 1:length(elem)
-      arg = vcat(elem[1][2:6],elem[i][2:6])
-      MOID = moidF(arg...)
-      @test MOID ≈ result[i] atol=1E-14
-      SHOW && @printf("%s   %-15s   %0.14f\n", elem[1][1], elem[i][1], MOID) #... = "splat array to arg list"
+      moid = moidF(elem[1][2:6]...,elem[i][2:6]...)
+      @test moid ≈ result[i] atol=1E-14
+      SHOW && @printf("%s   %-15s   %0.14f\n", elem[1][1], elem[i][1], moid)
    end
 
    SHOW && println()
