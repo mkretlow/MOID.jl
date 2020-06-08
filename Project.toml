@@ -1,0 +1,4 @@
+name = "MOID"
+uuid = "368f1576-f431-425c-a571-9a7a59ebf91c"
+authors = ["polmes <pol.developer1@gmail.com>"]
+version = "0.1.0"
