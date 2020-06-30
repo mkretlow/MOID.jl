@@ -1,5 +1,4 @@
-# MOID.jl [![Build Status](https://travis-ci.org/mkretlow/MOID.jl.png?branch=master)](https://travis-ci.org/mkretlow/MOID.jl)
-
+# MOID.jl [![Build Status](https://travis-ci.org/mkretlow/MOID.jl.svg?branch=master)](https://travis-ci.org/mkretlow/MOID.jl)
 Compute the MOID - Minimum Orbit Intersection Distance for two given confocal, elliptical orbits.
 It uses the idea of rotating meridional plane and calculates the MOIDs numerically.
 
