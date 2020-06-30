@@ -4,7 +4,7 @@ language: julia
 os:
     - linux
     - osx
-    - windows
+    #- windows
 julia:
     - 1
     - 1.4.2
@@ -39,9 +39,9 @@ addons:
 #  - julia -e 'Pkg.clone(pwd()); Pkg.build("CALCEPH"); Pkg.test("CALCEPH"; coverage=true)'
 after_success:
   # Build and push documentation to github pages
-  - julia -e 'Pkg.add("Documenter")'
-  - julia -e 'cd(Pkg.dir("CALCEPH")); include(joinpath("docs", "make.jl"))'
+  #- julia -e 'Pkg.add("Documenter")'
+  #- julia -e 'cd(Pkg.dir("CALCEPH")); include(joinpath("docs", "make.jl"))'
   # push coverage results to Coveralls
-  - julia -e 'cd(Pkg.dir("CALCEPH")); Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())'
+  #- julia -e 'cd(Pkg.dir("CALCEPH")); Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())'
   # push coverage results to Codecov
-  - julia -e 'cd(Pkg.dir("CALCEPH")); Pkg.add("Coverage"); using Coverage; Codecov.submit(Codecov.process_folder())'
+  #- julia -e 'cd(Pkg.dir("CALCEPH")); Pkg.add("Coverage"); using Coverage; Codecov.submit(Codecov.process_folder())'
