@@ -1,6 +1,9 @@
 name = "MOID"
 uuid = "368f1576-f431-425c-a571-9a7a59ebf91c"
 authors = ["Mike Kretlow <mikekretlow@gmail.com>"]
+keywords = ["astronomy"]
+desc = "Compute Minimum Orbit Intersection Distances"
+license = "MIT"
 version = "0.1.0"
 
 [deps]
