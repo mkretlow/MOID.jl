@@ -12,7 +12,7 @@ export moidF
 
 # Load shared library
 
-const lib = find_library(["libmoid"],["deps", joinpath(dirname(@__FILE__), "..", "deps")])
+const lib = find_library(["libmoid"],[dirname(@__FILE__),joinpath(dirname(@__FILE__), "..", "deps"),"deps",])
 
 
 if isempty(lib)
