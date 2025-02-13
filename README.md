@@ -23,7 +23,7 @@ julia> using MOID
 
 julia> rad = pi/180
 julia> ceres = [2.7691652, 0.0760091, 73.59764*rad, 80.30553*rad, 10.59407*rad]
-julia> urania = [2.3655722, 0.127581 , 87.42605*rad, 307.46872*rad, 2.09575*rad]
+julia> urania = [2.3655722, 0.127581, 87.42605*rad, 307.46872*rad, 2.09575*rad]
 julia> wisric_moid(ceres...,urania...)
 0.24521440655831886
 ```
