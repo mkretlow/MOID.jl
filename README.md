@@ -1,4 +1,17 @@
-# MOID.jl [![Build Status](https://travis-ci.org/mkretlow/MOID.jl.svg?branch=master)](https://travis-ci.org/mkretlow/MOID.jl)
+# MOID.jl 
+
+![status](https://img.shields.io/badge/status-deprecated-red)
+[![Build Status](https://travis-ci.org/mkretlow/MOID.jl.svg?branch=master)](https://travis-ci.org/mkretlow/MOID.jl)
+
+This package has been **renamed and superseded by AstroMOID.jl**.
+
+Please use:
+https://github.com/mkretlow/AstroMOID.jl
+
+This repository is kept for archival reasons only.
+No further development or bug fixes will happen here.
+
+___
 
 Compute the MOID - Minimum Orbit Intersection Distance for two given confocal, elliptical orbits.
 It uses the idea of rotating meridional plane and calculates the MOIDs numerically.
