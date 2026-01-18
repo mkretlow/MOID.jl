@@ -4,7 +4,7 @@ desc = "Compute Minimum Orbit Intersection Distances (MOID)"
 authors = ["Mike Kretlow <mike@kretlow.de>"]
 keywords = ["astronomy"]
 license = "MIT"
-version = "0.1.0"
+version = "1.0.0"
 
 [deps]
 Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
