@@ -25,13 +25,13 @@ T.Wiśniowski and H.Rickman, "A Fast, Geometric Method for Calculating Accurate 
 
 ```julia
 using Pkg
-Pkg.add("MOID")
+Pkg.add("https://github.com/mkretlow/MOID.jl")
 ```
 
 Or in the Julia REPL package mode (press `]`):
 
 ```julia
-pkg> add MOID
+pkg> add https://github.com/mkretlow/MOID.jl
 ```
 
 ## Quickstart
